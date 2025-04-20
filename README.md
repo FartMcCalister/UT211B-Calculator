@@ -1,4 +1,6 @@
 # UT211B-Calculator
+*WORK IN PROGRESS*
+
 
 This is a modification of Alderweb's excellent [Uni-T UT210E EEPROM configuration tool](https://github.com/adlerweb/UT210E-Calculator). This version works with the UT211B multimeter.
 
