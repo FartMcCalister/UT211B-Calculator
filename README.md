@@ -1,3 +1,5 @@
-# UT210E-Calculator
+# UT211B-Calculator
 
-This script is intended to modify a binary Uni-T UT210E EEPROM dump to change its ASIC configuration. Download and open the HTML-file locally or head over to https://adlerweb.github.io/UT210E-Calculator/ to run the calculator.
+This is a modification of Alderweb's excellent [Uni-T UT210E EEPROM configuration tool](https://github.com/adlerweb/UT210E-Calculator). This version works with the UT211B multimeter.
+
+You can download HTML file and run it locally or go [here](https://fartmccalister.github.io/UT211E-Calculator) to run it in your browser without downloading anything.
