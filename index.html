@@ -531,9 +531,10 @@
                 }
             }
 
+            //faert
             function setByte(self ,target) {
                 const value = parseInt(self.value, target);
-                if (isNaN(value) || value > 255) {
+                if (isNaN(self.value) || self.value > 255) {
                     self.value = 255;
                 }
                 //setByteVal(parseInt(self.value), target);
