@@ -532,10 +532,11 @@
             }
 
             function setByte(self ,target) {
-                setByteVal(parseInt(self.value), target);
+                const value = parseInt(self.value, target);
                 if (isNaN(value) || value > 255) {
                     self.value = 255;
                 }
+                //setByteVal(parseInt(self.value), target);
             }
 
             function setByte2(self ,target) {
