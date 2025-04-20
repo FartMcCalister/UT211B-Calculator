@@ -533,8 +533,8 @@
 
             //faert
             function setByte(self ,target) {
-                const value = parseInt(self.value, target);
-                if (isNaN(value) || value > 255) {
+                const valueTemp = parseInt(self.value, target);
+                if (valueTemp > 255) {
                     self.value = 255;
                 }
                 setByteVal(self.value, target);
