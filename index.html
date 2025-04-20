@@ -56,7 +56,7 @@
     </head>
     <body>
         <header>
-            <h1>UT210E EEPROM Calculator</h1>
+            <h1>UT211B EEPROM Calculator</h1>
         </header>
         <div class="container">
             <div class="card">
@@ -417,7 +417,7 @@
             function load2ByteROM(addr) {
                 addr_i = parseInt(addr);
                 document.getElementById('TXT_'+addr).value=(window.fileByteArray[addr_i+1] << 8) | window.fileByteArray[addr];
-                //console.log('TXT_'+addr+' ('+addr_i+') -> '+document.getElementById('TXT_'+addr).value);
+                //console.log('TXT_'+addr+' ('+addr_i+') -> '+document.getElementById('TXT_'+addr).value);HTML
             }
 
             function refreshFields() {
